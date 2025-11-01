@@ -310,63 +310,45 @@ Multi-turn reasoning segmentation is essential for mimicking real-world clinical
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Image carousel -->
+    
+<!-- Images / Figures -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+      <!-- 整个图像区的大标题 -->
+      <h2 class="title is-3">Research Motivation and Overview of the MTurn-Seg Benchmarks</h2>
+
+
+      <!-- 图块 1 -->
+      <div class="box" style="margin-bottom:1.5rem;">
+        <figure>
+          <img src="static/images/motivation%20and%20overview_1.png" alt="Image path error" style="width: 80%;">
+          <figcaption style="margin-top:0.5rem; font-size:0.9rem;">
+           A. Research Motivation. B. Major organs covered by the benchmark. C. Distribution of dialogue turns. D. Distribution of imaging modalities. E. Bilingual word clouds. F. Distribution of QA pairs across human organ systems.
+          </figcaption>
+        </figure>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
+
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
+<!-- end -->
+    
 
 <!-- Images / Figures -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <!-- 整个图像区的大标题 -->
-      <h2 class="title is-3">Figures & Examples</h2>
-      <p class="subtitle is-5">Key illustrations of MTurn-Seg</p>
+      <h2 class="title is-3">Dialogue Data Generation</h2>
+
 
       <!-- 图块 1 -->
       <div class="box" style="margin-bottom:1.5rem;">
-        <h3 class="title is-4">方法学</h3>
-        <p class="subtitle is-6">整体架构与数据流转示意。</p>
         <figure>
-          <img src="static/images/motivation%20and%20overview_1.png" alt="Methodology illustration">
+          <img src="static/images/benchmark_generate_1.png" alt="Image path error" style="width: 80%;">
           <figcaption style="margin-top:0.5rem; font-size:0.9rem;">
-            图 1. 我们的方法由数据预处理、提示生成和推理分割三部分组成。
+We extracted object centroids and areas to compute positions and relations. Clinicians wrote functional and pathological descriptions in Chinese and English, giving at least 20 variants per organ or lesion. This produced image–mask–text triplets. We then formed multi-turn samples by conditioning each round on previous segmentations, supporting both medical QA and new segmentations with cross-turn references. Data were built in three steps: write templates, rewrite with an LLM, and manually review a sample for quality.
           </figcaption>
         </figure>
       </div>
@@ -374,22 +356,23 @@ Multi-turn reasoning segmentation is essential for mimicking real-world clinical
     </div>
   </div>
 </section>
+<!-- end -->
 
+<!-- Images / Figures -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <!-- 整个图像区的大标题 -->
-      <h2 class="title is-3">Research Motivation and Overview of the MTurn-Seg Benchmarks</h2>
-      <!-- <p class="subtitle is-5">Key illustrations of MTurn-Seg</p> -->
+      <h2 class="title is-3">Multi-Turn Dialogue Example</h2>
+
 
       <!-- 图块 1 -->
       <div class="box" style="margin-bottom:1.5rem;">
-        <h3 class="title is-4">方法学</h3>
-        <p class="subtitle is-6">整体架构与数据流转示意。</p>
         <figure>
-          <img src="static/images/benchmark_generate_1.png" alt="Methodology illustration">
+          <img src="static/images/Sample_1.png" alt="Image path error" style="width: 80%;">
           <figcaption style="margin-top:0.5rem; font-size:0.9rem;">
-            图 1. 我们的方法由数据预处理、提示生成和推理分割三部分组成。
+The example figure shows bilingual multi-turn medical dialogues that include three types of information—spatial localization, functional information, and pathological information—to drive cross-turn reasoning-based segmentation.
+
           </figcaption>
         </figure>
       </div>
@@ -397,7 +380,8 @@ Multi-turn reasoning segmentation is essential for mimicking real-world clinical
     </div>
   </div>
 </section>
-
+<!-- end -->
+    
 <!-- Youtube video -->
 <section class="hero is-small is-light">
   <div class="hero-body">
