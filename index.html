@@ -346,7 +346,7 @@ Multi-turn reasoning segmentation is essential for mimicking real-world clinical
       <!-- 图块 1 -->
       <div class="box" style="margin-bottom:1.5rem;">
         <figure>
-          <img src="static/images/benchmark_generate_1.png" alt="Image path error" style="width: 80%;">
+          <img src="static/images/benchmark_generate_1.png" alt="Image path error" style="width:80%; display:block; margin:0 auto;">
           <figcaption style="margin-top:0.5rem; font-size:0.9rem;">
 We extracted object centroids and areas to compute positions and relations. Clinicians wrote functional and pathological descriptions in Chinese and English, giving at least 20 variants per organ or lesion. This produced image–mask–text triplets. We then formed multi-turn samples by conditioning each round on previous segmentations, supporting both medical QA and new segmentations with cross-turn references. Data were built in three steps: write templates, rewrite with an LLM, and manually review a sample for quality.
           </figcaption>
@@ -369,7 +369,7 @@ We extracted object centroids and areas to compute positions and relations. Clin
       <!-- 图块 1 -->
       <div class="box" style="margin-bottom:1.5rem;">
         <figure>
-          <img src="static/images/Sample_1.png" alt="Image path error" style="width: 80%;">
+          <img src="static/images/Sample_1.png" alt="Image path error" style="width:80%; display:block; margin:0 auto;">
           <figcaption style="margin-top:0.5rem; font-size:0.9rem;">
 The example figure shows bilingual multi-turn medical dialogues that include three types of information—spatial localization, functional information, and pathological information—to drive cross-turn reasoning-based segmentation.
 
