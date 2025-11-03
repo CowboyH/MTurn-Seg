@@ -7,7 +7,7 @@ Artificial Intelligence and Robotics Laboratory (AIRLab),
 Central South University, Changsha, China
 
 \* Equal contribution.  
-† Corresponding author. Email: <corresponding@example.com>
+† Corresponding author.
 ## Highlights
 
 ## License
