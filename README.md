@@ -11,6 +11,14 @@ Central South University, Changsha, China
 ## Highlights
 
 ## License
+MTurn-Seg Dataset License: CC BY-NC-SA 4.0
+
+You are free to share and adapt the dataset under the following terms:
+- Attribution (BY)
+- NonCommercial (NC)
+- ShareAlike (SA)
+
+Full text: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ## 📚 Citation
 
