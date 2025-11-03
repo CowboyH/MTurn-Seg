@@ -10,6 +10,19 @@ Central South University, Changsha, China
 † Corresponding author.
 ## Highlights
 
+* **New Task — Multi-Turn Reasoning Segmentation (MTRS):** At each turn, the model consumes the **current instruction + interaction history** (prior prompts and masks) to produce the **next segmentation**.
+* **Three Reasoning Facets:** (i) **Clinical/Anatomical** (e.g., “segment the solid organ in the right upper abdomen involved in glucose metabolism”), (ii) **Spatial** (e.g., “segment the elliptical structure adjacent to the right side of the abdominal aorta”), (iii) **History-based References** (e.g., “segment the necrotic region surrounding the previously segmented tumor”).
+* **Bilingual Benchmark (ZH/EN):** First dataset supporting **multi-turn medical dialogues** in **Chinese and English**.
+* **Scale & Coverage:** **28,904 images**, **113,963 masks**, **232,188 QA pairs** across **CT & MRI**; covers major organs and anatomical systems.
+* **What It Measures:** Cross-turn **memory**, **history-conditioned mask refinement**, and **language-to-image alignment** over multiple rounds.
+* **SOTA Evaluation:** Benchmarked **MedCLIP-SAM**, **LISA**, and **LISA++** under multi-turn settings.
+* **Key Findings:**
+
+  1. Current models are **well below clinical usability** on this benchmark.
+  2. **Performance degrades** as dialogue turns increase.
+  3. **General-purpose models** outperform **medical-specific** models, indicating a need to infuse stronger domain knowledge.
+* **Intended Impact:** Establishes the **first large-scale yardstick** for MTRS, enabling fair, reproducible comparison and catalyzing progress on **multi-turn reasoning in medical imaging**.
+
 ## License
 MTurn-Seg Dataset License: CC BY-NC-SA 4.0
 
