@@ -33,8 +33,8 @@ You are free to share and adapt the dataset under the following terms:
 Full text: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ## 📚 Citation
-
-If you find this work useful, please cite:
+If you find this work useful or use this dataset in your research, please cite our paper.
+**Note: The paper has been accepted at BIBM 2025 and is to appear; final publication details (e.g., pages/DOI) will be updated upon release.**
 
 **BibTeX**
 ```bibtex
