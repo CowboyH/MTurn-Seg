@@ -34,15 +34,20 @@ Full text: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ## 📚 Citation
 If you find this work useful or use this dataset in your research, please cite our paper.<br>
-**Note: The paper has been accepted at BIBM 2025 and is to appear; final publication details (e.g., pages/DOI) will be updated upon release.**
+
 
 **BibTeX**
 ```bibtex
-@InProceedings{MTurnBIBM,
-  author    = {Haitao Nie, Yimeng Zheng, Ying Ye, Bin Xie},
-  title     = {MTurn-Seg: A Large-Scale Bilingual Medical Benchmark for Multi-Turn Reasoning Segmentation},
-  booktitle = {Proceedings of the IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
-  year      = {2025},
-}
+@INPROCEEDINGS{11356076,
+  author={Nie, Haitao and Zheng, Yimeng and Ye, Ying and Xie, Bin},
+  booktitle={2025 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)}, 
+  title={MTurn-Seg: A Large-Scale Bilingual Medical Benchmark for Multi-Turn Reasoning Segmentation}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={3946-3950},
+  keywords={Image segmentation;Pathology;Magnetic resonance imaging;Computed tomography;Medical services;Benchmark testing;Cognition;Usability;Standards;Biomedical imaging;Multi-Turn Medical Reasoning Segmentation;Bilingual;Benchmark},
+  doi={10.1109/BIBM66473.2025.11356076}}
+
 
 
