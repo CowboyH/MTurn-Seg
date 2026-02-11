@@ -1,5 +1,6 @@
 # MTurn-Seg: A Large-Scale Bilingual Medical Benchmark for Multi-Turn Reasoning Segmentation
-Official repository for “MTurn-Seg: A Large-Scale Bilingual Medical Benchmark for Multi-Turn Reasoning Segmentation (BIBM 2025)”.  You can check the current version here: [https://cowboyh.github.io/MTurn-Seg/](https://cowboyh.github.io/MTurn-Seg/). 
+Official repository for “MTurn-Seg: A Large-Scale Bilingual Medical Benchmark for Multi-Turn Reasoning Segmentation (BIBM 2025)”.  You can check the current version here: [https://cowboyh.github.io/MTurn-Seg/](https://cowboyh.github.io/MTurn-Seg/). The official link to the paper: [https://ieeexplore.ieee.org/abstract/document/11356076](https://ieeexplore.ieee.org/abstract/document/11356076)
+
 ## Authors
 **Haitao Nie***, **Yimeng Zheng***, **Ying Ye***, **Bin Xie**†  
 Artificial Intelligence and Robotics Laboratory (AIRLab),  
